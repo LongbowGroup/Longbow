@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6796135-4E6C-4A38-94C4-A360898E7D63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F3038D5-8406-4CB5-9202-32D7DEF8AF28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longbow.Test", "test\Longbow.Test\Longbow.Test.csproj", "{646007BC-9264-4498-AC5D-0083D37616FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longbow", "src\Longbow\Longbow.csproj", "{72634CB5-30D2-4A15-AA5D-A9EE3254F088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{646007BC-9264-4498-AC5D-0083D37616FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646007BC-9264-4498-AC5D-0083D37616FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646007BC-9264-4498-AC5D-0083D37616FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646007BC-9264-4498-AC5D-0083D37616FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72634CB5-30D2-4A15-AA5D-A9EE3254F088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72634CB5-30D2-4A15-AA5D-A9EE3254F088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72634CB5-30D2-4A15-AA5D-A9EE3254F088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72634CB5-30D2-4A15-AA5D-A9EE3254F088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{646007BC-9264-4498-AC5D-0083D37616FA} = {1F3038D5-8406-4CB5-9202-32D7DEF8AF28}
+		{72634CB5-30D2-4A15-AA5D-A9EE3254F088} = {E6796135-4E6C-4A38-94C4-A360898E7D63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {800ECC92-8297-493F-B9BB-74D9B96C7984}
+	EndGlobalSection
+EndGlobal
