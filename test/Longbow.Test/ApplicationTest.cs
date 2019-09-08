@@ -9,7 +9,7 @@ namespace Longbow
         public void HasInstance_Ok()
         {
             LgbApplication.HasInstance();
-            Assert.True(LgbApplication.HasInstance("dotnet"));
+            Assert.True(LgbApplication.HasInstance("system"));
         }
     }
 }
